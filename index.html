@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE FONTS IMPORT -->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+
+    <script src="script.js" defer></script>
+    <title>Retro Rewind Games</title>
+</head>
+
+<!-- GLOBAL HEADER -->
+
+<header>
+    <h1 class="header-h1">[Retro Rewind Games]</h1>
+    
+    <nav>
+        <button class="selected-header-button" onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='shop.htm'">Shop</button>
+        <button onclick="window.location.href='about.htm'">Community Events</button>
+        <button onclick="window.location.href='placements.html'">Work Placements</button>
+        <button id="launch-contact">Contact</button>
+    </nav>
+</header>
+
+<body>
+    <script src="script.js" defer></script> <!-- JavaScript Link -->
+
+    <!-- DIALOG BOX(ES) -->
+    <dialog id="dialog-contact">
+        <h2>Contact Us</h2>
+        <p>Email: someone@example.com</p>
+        <p>Address: 12 High Street</p>
+
+        <button id="close-contact">Close</button>
+    </dialog>
+
+
+    <!--
+    ###########################
+    ##       Promotions      ##
+    ###########################
+    -->
+    
+    <div id="outer-box">
+        <div id="inner-box">
+            <img id="carousel-image"></img>
+        </div>
+
+        <button style="align-self: center;" id="previous">Previous</button>
+        <button style="align-self: center;" id="next">Next</button>
+    </div>
+
+    <div id="outer-box">
+        <h1 style="text-align: left; padding-left: 30px">Featured Games</h1>
+
+        <div id="shop-widget">
+            <section id="shop-card">
+                <h2>Product 1</h2>
+                
+            </section>
+        </div>
+
+        </section>
+    </div>
+</body>
+</html>
