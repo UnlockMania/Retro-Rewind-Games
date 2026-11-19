@@ -1,0 +1,122 @@
+/* HEADER SECTION */
+
+header {
+
+    /* Internal items */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #FF2A2A; /* Font Colour */
+
+    border: solid;
+    border-width: 3px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.header-h1 {
+    font-size: 32px;
+}
+
+.selected-header-button {
+    background-color: #FF2A2A;
+    color: black;
+}
+
+/*   BODY   */
+
+body {
+    margin: 0px;
+    font-family: "Lato";
+    color: white;
+    background-color: #0D0D0D;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: "Press Start 2P", system-ui;
+    color: #FF2A2A;
+    font-size: 20px
+}
+
+h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 14px
+}
+
+button {
+    background-color: #0D0D0D;
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    border: solid;
+    border-color: #FF2A2A;
+    border-width: 3px;
+    padding-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+button:hover {
+    background-color: #FF2A2A;
+    color: black; 
+}
+
+/* SHARED SECTIONS */
+#outer-box {
+    margin-top: 2%;
+    border: solid;
+    border-color: #343434;
+    text-align: center;
+    padding-bottom: 15px;
+    border-width: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#inner-box {
+    border: dashed;
+    border-color: #FF2A2A;
+    border-width: 4px;
+    margin: 15px
+}
+
+/*################
+#      SHOP      #
+################*/
+
+#shop-widget {
+    display: flex;
+}
+
+#shop-card {
+    border: solid;
+    border-color: #FF2A2A;
+    border-width: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 250px;
+    width: 450px;
+
+}
+
+
+/*  CAROUSEL   */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*  POP-UP DIALOG  */
+
+dialog {
+    background-color:pink;
+    padding: 30px;
+}
